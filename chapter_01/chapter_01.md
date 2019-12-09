@@ -14,4 +14,21 @@ To use Cargo to create a new application, use the following command:
 cargo new hello_cargo
 ```
 
+To build the project, do the following:
 
+```shell
+cd hello_cargo
+cargo build 
+```
+
+To run the project, do the following:
+
+```shell
+cargo run
+```
+
+or 
+
+```shell
+./target/debug/hello_cargo
+```
